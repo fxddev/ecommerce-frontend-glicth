@@ -38,7 +38,7 @@
     <li><a href="mobile.html">Mobile</a></li>
   </ul>
 
-<h1>Hello {name} bro yooow mamangs bor cuys!</h1>
+<h1>Hello {name} bro yooow mamangs bor cuys remix!</h1>
 <button class="waves-effect waves-light btn">buttons</button>
 
 <style>
