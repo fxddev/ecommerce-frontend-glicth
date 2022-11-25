@@ -1,17 +1,21 @@
 {
   "install": {
     "include": [
-      "^package\\.json$"
-    ],
-    "exclude": []
-  },
-  "restart": {
-    "include": [
-      "^backend/"
-    ],
-    "exclude": [
-      "src/" 
+      "^package\\.json$",
+      "^\\.env$"
     ]
   },
-  "noSavedEvents": true
+  "restart": {
+    "exclude": [
+      "^public/",
+      "^dist/"
+    ],
+    "include": [
+      "rollup.config.js$",
+      "\\.json",
+      "\\.svelte",
+      "\\.js"
+    ]
+  },
+  "throttle": 1000
 }

@@ -1,6 +1,3 @@
+.DS_Store
 node_modules
-web_modules
-.firebase
-.firebaserc
-.glitchdotcom.json
-build
+public/bundle.*
